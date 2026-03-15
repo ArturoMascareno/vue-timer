@@ -325,4 +325,46 @@ const overallProgressPercent = computed(() => {
 .action-btn:active {
   transform: scale(0.95);
 }
+
+@media (max-width: 480px) {
+  .glass-card {
+    padding: 2.5rem 1.5rem;
+    gap: 1.5rem;
+    border-radius: 32px;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 1rem;
+    letter-spacing: 4px;
+  }
+
+  .status {
+    font-size: 2rem;
+    height: 2.5rem;
+  }
+
+  .timer-display {
+    font-size: 5.5rem;
+  }
+
+  .stats {
+    font-size: 0.9rem;
+  }
+
+  .action-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .timer-display {
+    font-size: 4.5rem;
+  }
+  
+  .status {
+    font-size: 1.8rem;
+  }
+}
 </style>
